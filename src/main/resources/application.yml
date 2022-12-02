@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+logging:
+  level:
+    org.springframework: DEBUG
+
+## 다국어 처리할 때 사용할 파일 : messages
+spring:
+  messages:
+    basename: messages
